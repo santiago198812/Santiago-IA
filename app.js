@@ -385,7 +385,7 @@ document.getElementById("ai-razon").textContent =
     try {
 
         const response = await fetch(
-            `http://localhost:3001/api/analysis/${simbolo}`
+            https://santiago-ia.onrender.com/api/analysis/${simbolo}`
         );
 
         const data = await response.json();
