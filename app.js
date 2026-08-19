@@ -211,7 +211,9 @@ vistaDiario.style.display = "none";
       <p>🤖 Analizando noticias del mercado...</p>
     `;
 
-const response = await fetch(`http://localhost:3001/api/news-ai?lang=${selectorIdioma.value}`);
+const response = await fetch(`/api/news-ai?lang=${selectorIdioma.value}`);
+
+
 console.log("SELECTOR AHORA:", selectorIdioma.value);
 
 
