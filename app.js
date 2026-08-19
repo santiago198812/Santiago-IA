@@ -385,8 +385,10 @@ document.getElementById("ai-razon").textContent =
     try {
 
         const response = await fetch(
-            https://santiago-ia.onrender.com/api/analysis/${simbolo}`
-        );
+  `https://santiago-ia.onrender.com/api/analysis/${simbolo}`
+);
+        
+        
 
         const data = await response.json();
         console.log("SCORE RECIBIDO:", data.score);
