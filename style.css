@@ -1,0 +1,195 @@
+body {
+    background-color: #0f172a;
+    color: white;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 50px;
+}
+
+h1 {
+    color: #38bdf8;
+    font-size: 42px;
+}
+
+p {
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+button {
+    background-color: #38bdf8;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0284c7;
+}
+dashboard {
+    display: grid;
+    grid-template-columns: 250px 1fr;
+    grid-template-rows: 80px 1fr 250px;
+    gap: 15px;
+    height: 100vh;
+    padding: 20px;
+}
+
+.topbar {
+    grid-column: 1 / 3;
+    background: #1e293b;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.watchlist {
+    background: #1e293b;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.chart {
+    background: #1e293b;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.ai {
+    background: #1e293b;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.news {
+    background: #1e293b;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+
+.app-layout {
+    display: grid;
+    grid-template-columns: 180px 1fr 220px;
+    grid-template-rows: 70px 1fr;
+    min-height: 100vh;
+    gap: 12px;
+    padding: 12px;
+    box-sizing: border-box;
+}
+
+.topbar {
+    grid-column: 1 / 4;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #1e293b;
+    padding: 0 20px;
+    border-radius: 12px;
+}
+
+.brand {
+    font-size: 24px;
+    font-weight: bold;
+    color: #38bdf8;
+}
+
+.market-status {
+    color: #22c55e;
+    font-weight: bold;
+}
+
+.sidebar {
+    background: #1e293b;
+    border-radius: 12px;
+    padding: 12px;
+}
+
+.menu-btn {
+    width: 100%;
+    margin-bottom: 10px;
+    background: #0f172a;
+    color: white;
+    border: 1px solid #334155;
+    padding: 12px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.main-panel {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.chart-panel {
+    background: #1e293b;
+    border-radius: 12px;
+    padding: 18px;
+    min-height: 420px;
+}
+
+.bottom-panel {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 12px;
+}
+
+.ai-panel,
+.news-panel,
+.right-panel {
+    background: #1e293b;
+    border-radius: 12px;
+    padding: 18px;
+}
+
+.ticker {
+    background: #0f172a;
+    padding: 10px;
+    margin-bottom: 8px;
+    border-radius: 8px;
+}
+
+.chart-header{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    margin-bottom:15px;
+    gap:20px;
+}
+
+.chart-tools{
+    display:flex;
+    flex-wrap:wrap;
+    gap:10px;
+}
+
+.tool-btn{
+    background:#19c6ff;
+    color:white;
+    border:none;
+    border-radius:8px;
+    padding:8px 14px;
+    cursor:pointer;
+    font-weight:bold;
+    transition:.3s;
+}
+
+.tool-btn:hover{
+    background:#0da8dd;
+    transform:translateY(-2px);
+}
+.noticia-card {
+  background: #16283a;
+  border: 1px solid #2d4a63;
+  border-radius: 12px;
+  padding: 16px;
+  margin-bottom: 14px;
+}
+
+
+
+
